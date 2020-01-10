@@ -32,7 +32,6 @@ export class Carousel extends Component {
   };
   render() {
     const { currentIndex } = this.state;
-    console.log(currentIndex);
     return (
       <div className="main">
         <h1 className="title">CATS CAROUSEL</h1>
